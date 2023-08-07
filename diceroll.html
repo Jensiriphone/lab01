@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <title>Roll the dice</title>
+  </head>
+
+  <body>
+    <h1>Random dice generator</h1>
+    <p>Click the button to roll the dice!</p>
+
+    <h2>6 Face Dice:</h2>
+    <button onclick="rollD6()">Roll</button>
+    <p id="resultD6">?</p>
+
+    <h2>10 Face Dice:</h2>
+    <button onclick="rollD10()">Roll</button>
+    <p id="resultD10">?</p>
+
+    <script src="dice-roll.js"></script>
+  </body>
 </html>
